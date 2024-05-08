@@ -1,0 +1,64 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
+
+$primary:#99CC33;
+$list-group-bg: #323232;
+
+body {
+    background-color: #323232;
+}
+
+.nav-item {
+    border-bottom: none;
+}
+
+.item {
+    display: flex;
+    height: 2em;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-top:1em;
+    background-color: #99CC33;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #323232;
+    box-shadow: #191919;
+    transition: all 1s;
+}
+
+.item:hover {
+    padding: 1.6em;
+    box-shadow: #99CC33;
+    opacity: 0.8;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #191919;
+    transition: border-bottom 3s;
+}
+
+.myimg {
+    width: 10em;
+    height: 10em;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.navbar {
+    background-color: $primary;
+    opacity: 0.8;
+}
+
+.info {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #99CC33;
+    border-radius: 10px;
+    background-color: #323232;
+    height: 2em;
+    color: white;
+}
+
+
