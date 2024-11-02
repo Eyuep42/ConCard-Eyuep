@@ -70,3 +70,9 @@ body {
 }
 
 
+@include media-breakpoint-down(md) {
+    .info {
+        height: 4em;
+    }
+}
+

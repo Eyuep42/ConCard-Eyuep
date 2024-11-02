@@ -12026,4 +12026,10 @@ body {
   background-color: #191919;
   height: 2em;
   color: white;
+}
+
+@media (max-width: 767.98px) {
+  .info {
+    height: 4em;
+  }
 }/*# sourceMappingURL=styles.css.map */
