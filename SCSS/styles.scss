@@ -1,7 +1,9 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss'; 
 
-$primary:#99CC33;
+$green:   #99CC33;
+$primary:$green;
 $list-group-bg: #323232;
+$black: #191919;
 
 body {
     background-color: #323232;
@@ -18,22 +20,22 @@ body {
     justify-content: center;
     align-items: center;
     margin-top:1em;
-    background-color: #99CC33;
+    background-color: $green;
     border-radius: 10px;
     text-decoration: none;
     color: #323232;
-    box-shadow: #191919;
-    transition: all 1s;
+    box-shadow: $black;
+    transition: all 0.5s;
 }
 
 .item:hover {
     padding: 1.6em;
-    box-shadow: #99CC33;
+    box-shadow: $green;
     opacity: 0.8;
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid #191919;
+    border-bottom: 1px solid $black;
     transition: border-bottom 3s;
 }
 
@@ -45,6 +47,11 @@ body {
 }
 
 
+.name {
+    font-size: 2.5em;
+    color: $green;
+}
+
 .navbar {
     background-color: $primary;
     opacity: 0.8;
@@ -54,9 +61,10 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    border:1px solid #99CC33;
+    border:none;
+    padding: 10px;
     border-radius: 10px;
-    background-color: #323232;
+    background-color: $black;
     height: 2em;
     color: white;
 }
