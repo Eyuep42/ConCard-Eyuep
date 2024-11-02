@@ -63,6 +63,7 @@ body {
     justify-content: center;
     border:none;
     padding: 10px;
+    margin-top: .5em;
     border-radius: 10px;
     background-color: $black;
     height: 2em;
@@ -70,7 +71,7 @@ body {
 }
 
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(sm) {
     .info {
         height: 4em;
     }

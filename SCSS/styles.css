@@ -12022,13 +12022,14 @@ body {
   justify-content: center;
   border: none;
   padding: 10px;
+  margin-top: 0.5em;
   border-radius: 10px;
   background-color: #191919;
   height: 2em;
   color: white;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .info {
     height: 4em;
   }
